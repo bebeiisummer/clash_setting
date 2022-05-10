@@ -1,0 +1,6 @@
+payload:
+  - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,XboxAppServices
+  - PROCESS-NAME,XboxPcApp
+  - PROCESS-NAME,QQMusic.exe
+  - PROCESS-NAME,xunlei.exe
