@@ -7,19 +7,19 @@ module.exports.parse = ({ content, name, url }, { yaml, axios, notify }) => {
   content["proxy-groups"] = [...proxyGroups, ...content["proxy-groups"]];
   const ruleProviders = {
     steam: {
-      type: "http",
+      type: "file",
       behavior: "domain",
       path: "./ruleset/steam.yaml",
       interval: 86400,
     },
     epic: {
-      type: "http",
+      type: "file",
       behavior: "domain",
       path: "./ruleset/epic.yaml",
       interval: 86400,
     },
     applications: {
-      type: "http",
+      type: "file",
       behavior: "classical",
       path: "./ruleset/applications.yaml",
       interval: 86400,

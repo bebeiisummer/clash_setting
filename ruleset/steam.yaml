@@ -1,5 +1,6 @@
 payload:
   - 'steambroadcast.akamaized.net'
+  - 'steampipe.akamaized.net'
   - 'steamcdn-a.akamaihd.net'
   - 'steamcommunity-a.akamaihd.net'
   - 'steamstore-a.akamaihd.net'
